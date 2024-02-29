@@ -1,0 +1,315 @@
+29.02.24
+Practice
+---------
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrator/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test/.git/
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git add .
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Everything up-to-date
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   test.txt
+
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Everything up-to-date
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git commit -m "2nd commit at classroom"
+[main 833ad9a] 2nd commit at classroom
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/orkcel/1st-lesson--git-test.git
+   4adb347..833ad9a  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2nd file.txt
+        3rd file.txt
+        4th file, i think thats enough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ -git commit "added some files"
+bash: -git: command not found
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git commit -m "added some files"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2nd file.txt
+        3rd file.txt
+        4th file, i think thats enough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git branch
+* main
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2nd file.txt
+        3rd file.txt
+        4th file, i think thats enough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git commit -m "added some files"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2nd file.txt
+        3rd file.txt
+        4th file, i think thats enough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        2nd file.txt
+        3rd file.txt
+        4th file, i think thats enough.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git add .
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   2nd file.txt
+        new file:   3rd file.txt
+        new file:   4th file, i think thats enough.txt
+
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git commit -m "added some files"
+[main ff8c8cb] added some files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2nd file.txt
+ create mode 100644 3rd file.txt
+ create mode 100644 4th file, i think thats enough.txt
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/orkcel/1st-lesson--git-test.git
+   833ad9a..ff8c8cb  main -> main
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git  config --local.user.name "Gasimov Orkhan"
+error: unknown option `local.user.name'
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git config --local user.name "GasimovOrkhan"
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Everything up-to-date
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git add .
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    3rd file.txt
+        deleted:    4th file, i think thats enough.txt
+        renamed:    2nd file.txt -> emptyffle.txt
+        deleted:    test.txt
+
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Everything up-to-date
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git commit -m "deleted ewerything and added one empty file"
+[main 2cf7fbe] deleted ewerything and added one empty file
+ 4 files changed, 5 deletions(-)
+ delete mode 100644 3rd file.txt
+ delete mode 100644 4th file, i think thats enough.txt
+ rename 2nd file.txt => emptyffle.txt (100%)
+ delete mode 100644 test.txt
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 263 bytes | 263.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/orkcel/1st-lesson--git-test.git
+   ff8c8cb..2cf7fbe  main -> main
+
+Administrator@WIN-O2RP0R19UAL MINGW64 ~/Desktop/Gasimov Orkhan (FrontEnd-1)/1st-lesson--git-test (main)
+$
